@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # The repo is two static files today (no workflows, no manifests); this entry only starts to act if a workflow is added.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
